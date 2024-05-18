@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISED.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/ClientWindowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/clientData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/clientWindowFXML.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/client_Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/first_program/test_program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/program/loginUser/User2/User2Controller.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2gDoRP2oDFmI9ZwcAUUZeIyIeEB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.client_Window.executor": "Run",
+    "Application.inputTextfield.executor": "Run",
+    "Application.login.executor": "Run",
+    "Application.setTitleName.executor": "Run",
+    "Application.textAndTitle.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/1/scenebuilder/SceneBuilder-21.0.0.msi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Login" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="program.loginUser.Login" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.login">
+    <configuration name="client_Window" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.client_Window" />
+      <module name="ISED" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\1\javafx\openjfx-21.0.2_windows-x64_bin-sdk\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="inputTextfield" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first_program.inputTextfield" />
+      <module name="ISED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first_program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="program.loginUser.Login.login" />
+      <module name="ISED" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\1\javafx\openjfx-21.0.2_windows-x64_bin-sdk\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="program.loginUser.User2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="setTitleName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first_program.setTitleName" />
+      <module name="ISED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first_program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textAndTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="first_program.textAndTitle" />
+      <module name="ISED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first_program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.login" />
+      <item itemvalue="Application.client_Window" />
+      <item itemvalue="Application.inputTextfield" />
+      <item itemvalue="Application.setTitleName" />
+      <item itemvalue="Application.textAndTitle" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.login" />
+        <item itemvalue="Application.client_Window" />
+        <item itemvalue="Application.setTitleName" />
+        <item itemvalue="Application.inputTextfield" />
+        <item itemvalue="Application.textAndTitle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="" />
+      <created>1715241502554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715241502554</updated>
+      <workItem from="1715241503673" duration="2571000" />
+      <workItem from="1715681291429" duration="764000" />
+      <workItem from="1715799968869" duration="3612000" />
+      <workItem from="1715847065025" duration="699000" />
+      <workItem from="1715876876253" duration="2034000" />
+      <workItem from="1715975136216" duration="14000" />
+      <workItem from="1715976466220" duration="944000" />
+      <workItem from="1716027022370" duration="6091000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
