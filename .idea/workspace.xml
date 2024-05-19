@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ISED.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/ClientWindowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/clientData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/clientWindowFXML.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/client_Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/first_program/test_program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/program/loginUser/User2/User2Controller.java" afterDir="false" />
+    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="first type of program; made login window for users">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/economistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/loginUser/Users/Economist/economistController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -54,6 +40,7 @@
     "Application.inputTextfield.executor": "Run",
     "Application.login.executor": "Run",
     "Application.setTitleName.executor": "Run",
+    "Application.testCeo.executor": "Run",
     "Application.textAndTitle.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -65,21 +52,30 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Global Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Users\Ceo\testProg" />
+      <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Users\Ceo\FXML" />
+      <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Users\Ceo" />
       <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Login" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="program.loginUser.Login" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.login">
+  <component name="RunManager" selected="Application.testCeo">
     <configuration name="client_Window" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client.client_Window" />
       <module name="ISED" />
@@ -113,7 +109,7 @@
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\1\javafx\openjfx-21.0.2_windows-x64_bin-sdk\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="program.loginUser.User2.*" />
+          <option name="PATTERN" value="program.loginUser.Users.Ceo.FXML.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="textAndTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="first_program.textAndTitle" />
+    <configuration name="testCeo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="program.loginUser.Users.Ceo.testProg.testCeo" />
       <module name="ISED" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\1\javafx\openjfx-21.0.2_windows-x64_bin-sdk\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="first_program.*" />
+          <option name="PATTERN" value="program.loginUser.Users.Ceo.testProg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +145,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.testCeo" />
       <item itemvalue="Application.login" />
       <item itemvalue="Application.client_Window" />
       <item itemvalue="Application.inputTextfield" />
       <item itemvalue="Application.setTitleName" />
-      <item itemvalue="Application.textAndTitle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testCeo" />
         <item itemvalue="Application.login" />
         <item itemvalue="Application.client_Window" />
         <item itemvalue="Application.setTitleName" />
         <item itemvalue="Application.inputTextfield" />
-        <item itemvalue="Application.textAndTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -188,10 +185,29 @@
       <workItem from="1715975136216" duration="14000" />
       <workItem from="1715976466220" duration="944000" />
       <workItem from="1716027022370" duration="6091000" />
+      <workItem from="1716060139209" duration="767000" />
+      <workItem from="1716099191013" duration="5951000" />
     </task>
+    <task id="LOCAL-00001" summary="first type of program; made login window for users">
+      <option name="closed" value="true" />
+      <created>1716060491760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716060491760</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first type of program; made login window for users" />
+    <option name="LAST_COMMIT_MESSAGE" value="first type of program; made login window for users" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
