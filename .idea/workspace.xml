@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="second steps; make first version of user`s window for ceo">
-      <change afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/outFXML.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/program/Users/Data/organisationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="make outcomming table showed in app for ceo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Connect/Connecting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Connect/Connecting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Login/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Login/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Login/economistFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Login/economistFXML.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Login/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Login/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Login/loginFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Login/loginFXML.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/Ceo/Controllers/InControl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/Ceo/Controllers/OutControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/Ceo/Controllers/organisationControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/organisationControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/Ceo/FXML/ceoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/ceoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/Ceo/FXML/incomingFXML.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/Ceo/FXML/organisationFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/organisationFXML.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/Ceo/FXML/outcomingFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/incomingFXML.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/Ceo/testProg/ceoFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/testProg/ceoFXML.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/Ceo/testProg/testCeo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/testProg/testCeo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/Data/Data.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/loginUser/Users/Economist/economistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Economist/economistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/outFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/outFXML.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +191,7 @@
       <workItem from="1716185987707" duration="14000" />
       <workItem from="1716186063697" duration="4687000" />
       <workItem from="1716202212511" duration="772000" />
-      <workItem from="1716203181829" duration="5665000" />
+      <workItem from="1716203181829" duration="6361000" />
     </task>
     <task id="LOCAL-00001" summary="first type of program; made login window for users">
       <option name="closed" value="true" />
@@ -226,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716106175263</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="make outcomming table showed in app for ceo">
+      <option name="closed" value="true" />
+      <created>1716210987754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716210987754</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +226,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first type of program; made login window for users" />
     <MESSAGE value="second steps; make first version of user`s window for ceo" />
-    <option name="LAST_COMMIT_MESSAGE" value="second steps; make first version of user`s window for ceo" />
+    <MESSAGE value="make outcomming table showed in app for ceo" />
+    <option name="LAST_COMMIT_MESSAGE" value="make outcomming table showed in app for ceo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
