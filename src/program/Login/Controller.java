@@ -1,4 +1,4 @@
-package program.loginUser.Login;
+package program.Login;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +10,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import program.loginUser.Connect.Connecting;
+import program.Connect.Connecting;
 
 import java.io.IOException;
 import java.net.URL;
@@ -18,7 +18,8 @@ import java.sql.*;
 import java.util.ResourceBundle;
 
 public class Controller implements Initializable {
-    private final Connection connect = Connecting.Connect();
+    String db="ISED";
+    private final Connection connect = Connecting.Connect(db);
     @FXML
     private Button loginButton;
 
@@ -30,7 +31,7 @@ public class Controller implements Initializable {
 
     @FXML
     void login(ActionEvent event) {
-        Connecting.Connect();
+        Connecting.Connect(db);
         String login = txtLogin.getText();
         String password = txtPassword.getText();
         String sqlLog = STR."SELECT COUNT(1)  FROM usersAndPasswords where name='\{login}'";
@@ -105,7 +106,7 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        Connecting.Connect();
+        Connecting.Connect(db);
     }
 }
 

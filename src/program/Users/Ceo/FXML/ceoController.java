@@ -1,4 +1,4 @@
-package program.loginUser.Users.Ceo.FXML;
+package program.Users.Ceo.FXML;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -12,6 +12,7 @@ import javafx.scene.layout.VBox;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 public class ceoController implements Initializable {
@@ -35,7 +36,7 @@ public class ceoController implements Initializable {
 
     @FXML
     void Outcoming(MouseEvent event) {
-        loadPage("outcomingFXML");
+        loadPage("outFXML");
     }
 
     @FXML
@@ -58,7 +59,7 @@ public class ceoController implements Initializable {
 private void loadPage(String page) {
     Parent root = null;
     try {
-        root = FXMLLoader.load(getClass().getResource(page + ".fxml"));
+        root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(page + ".fxml")));
     } catch (IOException e) {
         throw new RuntimeException(e);
     }

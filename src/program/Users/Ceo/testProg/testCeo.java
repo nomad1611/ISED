@@ -1,4 +1,4 @@
-package program.loginUser.Login;
+package program.Users.Ceo.testProg;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 import java.util.Objects;
 
-public class login extends Application {
+public class testCeo extends Application {
 
     public static void main(String[] args) {
         launch(args);
@@ -17,16 +17,14 @@ public class login extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {
-            Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("loginFXML.fxml")));
-            Scene scene = new Scene(root);
+           Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("ceoFXML.fxml")));
+           Scene scene = new Scene(root);
             primaryStage.setScene(scene);
-            primaryStage.setTitle("Login");
             primaryStage.show();
 
-        }catch (Exception e) {
+        } catch (Exception e) {
             throw new RuntimeException(e);
+
         }
-
-
     }
 }
