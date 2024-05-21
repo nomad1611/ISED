@@ -67,11 +67,12 @@ public class Controller implements Initializable {
                     switch (login) {
 
                         case "CEO":
-                            FXMLLoader loader = new FXMLLoader(getClass().getResource("../Users/Ceo/testProg/ceoFXML.fxml"));
+                            FXMLLoader loader = new FXMLLoader(getClass().getResource("../Users/Ceo/FXML/ceoFXML.fxml"));
                             try {
                                 Parent root = loader.load();
                                 Stage stage1 = (Stage) ((Node) event.getSource()).getScene().getWindow();
                                 Scene scene = new Scene(root);
+                                stage1.setTitle("User CEO");
                                 stage1.setScene(scene);
                                 stage1.show();
 
@@ -80,7 +81,7 @@ public class Controller implements Initializable {
 
                             break;
                         case "Economist":
-                            FXMLLoader loader2 = new FXMLLoader(getClass().getResource("economistFXML.fxml"));
+                            FXMLLoader loader2 = new FXMLLoader(getClass().getResource("../Users/Economist/testProg/economistFXML.fxml"));
                             try {
                                 Parent root = loader2.load();
                                 Stage stage1 = (Stage) ((Node) event.getSource()).getScene().getWindow();

@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="add data from table orgFolder for ceo&#10;;">
+    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="show data from table incom for ceo&#10;;">
+      <change afterPath="$PROJECT_DIR$/src/program/Users/Economist/testProg/economistFXML.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/incomingFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/incomingFXML.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Login/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Login/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Login/economistFXML.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/addDialogPane.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/orgDP.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/orgDP.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/organisationControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/organisationControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/addDialogPane.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/addDialogPane.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/testProg/ceoFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/ceoFXML.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/testProg/testCeo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/testProg/testCeo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Data/outcomData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Data/outcomData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Economist/economistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Economist/FXML/economistController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaFXApplication" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -37,70 +48,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.PopupExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.client_Window.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inputTextfield.executor&quot;: &quot;Run&quot;,
-    &quot;Application.login.executor&quot;: &quot;Run&quot;,
-    &quot;Application.program.Login.login.executor&quot;: &quot;Run&quot;,
-    &quot;Application.program.Users.Ceo.testProg.testCeo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.setTitleName.executor&quot;: &quot;Run&quot;,
-    &quot;Application.testCeo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.textAndTitle.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/1/scenebuilder/SceneBuilder-21.0.0.msi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PopupExample.executor": "Run",
+    "Application.client_Window.executor": "Run",
+    "Application.inputTextfield.executor": "Run",
+    "Application.login.executor": "Run",
+    "Application.program.Login.login.executor": "Run",
+    "Application.program.Users.Ceo.testProg.testCeo.executor": "Run",
+    "Application.setTitleName.executor": "Run",
+    "Application.testCeo.executor": "Run",
+    "Application.testEconomist.executor": "Run",
+    "Application.textAndTitle.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/1/AppData/Local/SceneBuilder/SceneBuilder.exe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\IdeaProjects\ISED\src\program\Users\Economist\testProg" />
+      <recent name="C:\Users\1\IdeaProjects\ISED\src\program\Users\Economist\FXML" />
+      <recent name="C:\Users\1\IdeaProjects\ISED\src\program\Users\Ceo\FXML" />
       <recent name="C:\Users\1\IdeaProjects\ISED\src\program\Users\Ceo\Controllers" />
       <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Users\Ceo\testProg" />
-      <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Users\Ceo\FXML" />
-      <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Users\Ceo" />
-      <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Login" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="program.loginUser.Login" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.program.Users.Ceo.testProg.testCeo">
+  <component name="RunManager" selected="Application.program.Login.login">
     <configuration name="PopupExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PopupExample" />
       <module name="ISED" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\1\javafx\openjfx-21.0.2_windows-x64_bin-sdk\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="client_Window" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.client_Window" />
-      <module name="ISED" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\1\javafx\openjfx-21.0.2_windows-x64_bin-sdk\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,20 +145,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testEconomist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="program.Users.Economist.testProg.testEconomist" />
+      <module name="ISED" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\1\javafx\openjfx-21.0.2_windows-x64_bin-sdk\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="program.Users.Economist.testProg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.testEconomist" />
       <item itemvalue="Application.program.Login.login" />
       <item itemvalue="Application.PopupExample" />
       <item itemvalue="Application.program.Users.Ceo.testProg.testCeo" />
       <item itemvalue="Application.login" />
-      <item itemvalue="Application.client_Window" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.program.Users.Ceo.testProg.testCeo" />
         <item itemvalue="Application.program.Login.login" />
+        <item itemvalue="Application.testEconomist" />
+        <item itemvalue="Application.program.Users.Ceo.testProg.testCeo" />
         <item itemvalue="Application.PopupExample" />
         <item itemvalue="Application.login" />
-        <item itemvalue="Application.client_Window" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +208,9 @@
       <workItem from="1716202212511" duration="772000" />
       <workItem from="1716203181829" duration="17594000" />
       <workItem from="1716290720146" duration="5095000" />
-      <workItem from="1716296082519" duration="6550000" />
+      <workItem from="1716296082519" duration="6740000" />
+      <workItem from="1716313899714" duration="800000" />
+      <workItem from="1716322256190" duration="3708000" />
     </task>
     <task id="LOCAL-00001" summary="first type of program; made login window for users">
       <option name="closed" value="true" />
@@ -262,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716300986417</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="show data from table incom for ceo&#10;;">
+      <option name="closed" value="true" />
+      <created>1716303272284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716303272284</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +310,8 @@
     <MESSAGE value="show table orgFolder for ceo&#10;;" />
     <MESSAGE value="delete data from table orgFolder for ceo&#10;;" />
     <MESSAGE value="add data from table orgFolder for ceo&#10;;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add data from table orgFolder for ceo&#10;;" />
+    <MESSAGE value="show data from table incom for ceo&#10;;" />
+    <option name="LAST_COMMIT_MESSAGE" value="show data from table incom for ceo&#10;;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,4 +1,4 @@
-package program.Users.Ceo.Controllers;
+package program.Users.Economist.Controllers;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -18,7 +18,6 @@ import java.util.Optional;
 import java.util.ResourceBundle;
 
 public class organisationControl implements Initializable {
-
     @FXML
     private Button addButton;
 
@@ -176,4 +175,3 @@ public class organisationControl implements Initializable {
 
 
 }
-

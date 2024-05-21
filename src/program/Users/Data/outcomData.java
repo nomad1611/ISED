@@ -3,7 +3,7 @@ package program.Users.Data;
 import java.sql.Timestamp;
 
 public class outcomData {
-    private final Integer index;
+    private final Integer id;
     private final String name;
     private final String executor;
     private final java.sql.Timestamp created; // Use Timestamp for TIMESTAMP columns
@@ -13,7 +13,7 @@ public class outcomData {
 
     public outcomData(int id, String name, String executor, java.sql.Timestamp created, String message) {
 
-        this.index = id;
+        this.id = id;
         this.name = name;
         this.executor = executor;
         this.created = created;
@@ -21,8 +21,8 @@ public class outcomData {
     }
 
 
-    public Integer getIndex() {
-            return index;
+    public Integer getId() {
+            return id;
         }
         public String getName() {
             return name;

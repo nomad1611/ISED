@@ -15,7 +15,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.sql.*;
 
-import java.util.Objects;
 import java.util.Optional;
 import java.util.ResourceBundle;
 
@@ -58,7 +57,7 @@ public class OutControl implements Initializable {
         dialogController addDialogController= null;
 
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("addDialogPane.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("../FXML/addDialogPane.fxml"));
             DialogPane dialogPane = loader.load();
             dialog.setDialogPane(dialogPane);
 
@@ -139,7 +138,7 @@ public class OutControl implements Initializable {
         outcomData selectedData = tableOutcom.getSelectionModel().getSelectedItem();
         if (selectedData != null) {
 
-            int id = selectedData.getIndex(); // Retrieve the ID from the selected outcomData object
+            int id = selectedData.getId(); // Retrieve the ID from the selected outcomData object
 
             String sql = "DELETE FROM outcom WHERE id=?";
 
@@ -201,7 +200,7 @@ public class OutControl implements Initializable {
 
     public void showData(){
         ObservableList<outcomData> showList=dataList();
-        indexColumn.setCellValueFactory(new PropertyValueFactory<>("index"));
+        indexColumn.setCellValueFactory(new PropertyValueFactory<>("id"));
         nameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
         executorColumn.setCellValueFactory(new PropertyValueFactory<>("executor"));
         createdColumn.setCellValueFactory(new PropertyValueFactory<>("created"));
