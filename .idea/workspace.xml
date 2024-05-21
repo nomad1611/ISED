@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="delete data from table orgFolder for ceo&#10;;">
-      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/organisationControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/organisationControl.java" afterDir="false" />
+    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="add data from table orgFolder for ceo&#10;;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/incomingFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/incomingFXML.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -195,7 +196,7 @@
       <workItem from="1716202212511" duration="772000" />
       <workItem from="1716203181829" duration="17594000" />
       <workItem from="1716290720146" duration="5095000" />
-      <workItem from="1716296082519" duration="4199000" />
+      <workItem from="1716296082519" duration="6550000" />
     </task>
     <task id="LOCAL-00001" summary="first type of program; made login window for users">
       <option name="closed" value="true" />
@@ -253,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716300410934</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add data from table orgFolder for ceo&#10;;">
+      <option name="closed" value="true" />
+      <created>1716300986417</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716300986417</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +287,8 @@
     <MESSAGE value="button add; dialog pane and adding data to incom.Economist and outcom.Ceo;" />
     <MESSAGE value="show table orgFolder for ceo&#10;;" />
     <MESSAGE value="delete data from table orgFolder for ceo&#10;;" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete data from table orgFolder for ceo&#10;;" />
+    <MESSAGE value="add data from table orgFolder for ceo&#10;;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add data from table orgFolder for ceo&#10;;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
