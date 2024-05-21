@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="make outcomming table showed in app for ceo">
+    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="delete function for outcom table Ceo;">
+      <change afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/dialogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/outFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/outFXML.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="FxmlFile" />
         <option value="Class" />
-        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -70,6 +70,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\IdeaProjects\ISED\src\program\Users\Ceo\Controllers" />
       <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Users\Ceo\testProg" />
       <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Users\Ceo\FXML" />
       <recent name="C:\Users\1\IdeaProjects\ISED\src\program\loginUser\Users\Ceo" />
@@ -191,7 +192,8 @@
       <workItem from="1716185987707" duration="14000" />
       <workItem from="1716186063697" duration="4687000" />
       <workItem from="1716202212511" duration="772000" />
-      <workItem from="1716203181829" duration="6361000" />
+      <workItem from="1716203181829" duration="17594000" />
+      <workItem from="1716290720146" duration="1906000" />
     </task>
     <task id="LOCAL-00001" summary="first type of program; made login window for users">
       <option name="closed" value="true" />
@@ -217,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716210987754</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="delete function for outcom table Ceo;">
+      <option name="closed" value="true" />
+      <created>1716211762712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716211762712</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +237,8 @@
     <MESSAGE value="first type of program; made login window for users" />
     <MESSAGE value="second steps; make first version of user`s window for ceo" />
     <MESSAGE value="make outcomming table showed in app for ceo" />
-    <option name="LAST_COMMIT_MESSAGE" value="make outcomming table showed in app for ceo" />
+    <MESSAGE value="delete function for outcom table Ceo;" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete function for outcom table Ceo;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
