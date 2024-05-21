@@ -1,23 +1,25 @@
 package program.Users.Data;
 
+import java.sql.Timestamp;
+
 public class organisationData {
-    private  final String docName;
-    private final String time;
-    private final Integer index;
+    private  final String name;
+    private final Timestamp created;
+    private final Integer id;
 
-    public organisationData(String docName, String time, Integer index) {
-        this.docName = docName;
-        this.time = time;
-        this.index = index;
+    public organisationData(Integer id,String name, Timestamp created) {
+        this.name = name;
+        this.created = created;
+        this.id = id;
     }
 
-    public String getDocName() {
-        return docName;
+    public String getName() {
+        return name;
     }
-    public String getTime() {
-        return time;
+    public Timestamp getCreated() {
+        return created;
     }
-    public Integer getIndex() {
-        return index;
+    public Integer getId() {
+        return id;
     }
 }

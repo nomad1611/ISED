@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="button add; dialog pane and adding data to incom.Economist and outcom.Ceo;">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/organisationControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/organisationControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/organisationFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/organisationFXML.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Data/organisationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Data/organisationData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaFXApplication" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -197,7 +198,8 @@
       <workItem from="1716186063697" duration="4687000" />
       <workItem from="1716202212511" duration="772000" />
       <workItem from="1716203181829" duration="17594000" />
-      <workItem from="1716290720146" duration="4966000" />
+      <workItem from="1716290720146" duration="5095000" />
+      <workItem from="1716296082519" duration="3444000" />
     </task>
     <task id="LOCAL-00001" summary="first type of program; made login window for users">
       <option name="closed" value="true" />
@@ -244,6 +246,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first type of program; made login window for users" />
