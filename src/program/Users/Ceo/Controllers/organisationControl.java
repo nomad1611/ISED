@@ -5,9 +5,7 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import program.Connect.Connecting;
 import program.Users.Data.organisationData;
@@ -15,6 +13,7 @@ import program.Users.Data.outcomData;
 
 import java.net.URL;
 import java.sql.*;
+import java.util.Optional;
 import java.util.ResourceBundle;
 
 public class organisationControl implements Initializable {
@@ -48,6 +47,44 @@ public class organisationControl implements Initializable {
 
     @FXML
     void delete(ActionEvent event) {
+
+        organisationData selectedData = tableOrg.getSelectionModel().getSelectedItem();
+        if (selectedData != null) {
+
+            int id = selectedData.getId(); // Retrieve the ID from the selected outcomData object
+
+            String sql = "DELETE FROM orgfolder WHERE id=?";
+
+
+            try {
+                Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+                alert.setTitle("Confirmation");
+                alert.setHeaderText(null);
+                alert.setContentText("Are you sure you want to delete this bank?");
+                Optional<ButtonType> buttonType = alert.showAndWait();
+                if (buttonType.isPresent() && buttonType.get() == ButtonType.OK) {
+
+                    prepare = connect.prepareStatement(sql);
+                    prepare.setInt(1, id);
+                    prepare.executeUpdate();
+                    showData();
+
+
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        } else {
+            // If no item is selected, show a message to the user
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Information");
+            alert.setHeaderText(null);
+            alert.setContentText("Please select a row to delete.");
+            alert.showAndWait();
+        }
+
+
+
 
     }
 

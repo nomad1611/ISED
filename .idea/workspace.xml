@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="button add; dialog pane and adding data to incom.Economist and outcom.Ceo;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" afterDir="false" />
+    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="show table orgFolder for ceo&#10;;">
       <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/organisationControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/organisationControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/organisationFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/FXML/organisationFXML.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/Users/Data/organisationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Data/organisationData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +195,7 @@
       <workItem from="1716202212511" duration="772000" />
       <workItem from="1716203181829" duration="17594000" />
       <workItem from="1716290720146" duration="5095000" />
-      <workItem from="1716296082519" duration="3444000" />
+      <workItem from="1716296082519" duration="3862000" />
     </task>
     <task id="LOCAL-00001" summary="first type of program; made login window for users">
       <option name="closed" value="true" />
@@ -241,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716293322582</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="show table orgFolder for ceo&#10;;">
+      <option name="closed" value="true" />
+      <created>1716300144446</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716300144446</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +268,8 @@
     <MESSAGE value="make outcomming table showed in app for ceo" />
     <MESSAGE value="delete function for outcom table Ceo;" />
     <MESSAGE value="button add; dialog pane and adding data to incom.Economist and outcom.Ceo;" />
-    <option name="LAST_COMMIT_MESSAGE" value="button add; dialog pane and adding data to incom.Economist and outcom.Ceo;" />
+    <MESSAGE value="show table orgFolder for ceo&#10;;" />
+    <option name="LAST_COMMIT_MESSAGE" value="show table orgFolder for ceo&#10;;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
