@@ -28,7 +28,7 @@
                   <Font size="29.0" />
                </font>
             </Text>
-            <TextField fx:id="nametextField" promptText="Name of the document" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <TextField fx:id="nameTextField" promptText="Name of the document" GridPane.columnIndex="2" GridPane.rowIndex="1" />
          </children>
       </GridPane>
    </content>

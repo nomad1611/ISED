@@ -4,6 +4,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -11,6 +12,7 @@ import program.Connect.Connecting;
 import program.Users.Data.organisationData;
 import program.Users.Data.outcomData;
 
+import java.io.IOException;
 import java.net.URL;
 import java.sql.*;
 import java.util.Optional;
@@ -42,8 +44,51 @@ public class organisationControl implements Initializable {
 
     @FXML
     void add(ActionEvent event) {
+        Dialog<ButtonType> dialog = new Dialog<>();
+        dialog.setTitle("Add New Entry");
+        dialog.initOwner(addButton.getScene().getWindow());
 
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("orgDP.fxml"));
+            DialogPane dialogPane = loader.load();
+            dialog.setDialogPane(dialogPane);
+
+
+
+            // Set default value for executor choice box
+
+        } catch (IOException _) {
+
+            return;
+        }
+
+        Optional<ButtonType> result = dialog.showAndWait();
+        if (result.isPresent() && result.get() == ButtonType.OK) {
+            // Retrieve entered information
+            DialogPane pane = dialog.getDialogPane();
+            TextField nameTextField = (TextField) pane.lookup("#nameTextField");
+
+
+            String name = nameTextField.getText();
+
+
+
+            // Execute SQL query to insert the new record into the MySQL table
+            String sql = "INSERT INTO orgfolder (name, created) VALUES ( ?, NOW())";
+            try {
+                prepare = connect.prepareStatement(sql);
+                prepare.setString(1, name);
+                prepare.executeUpdate();
+                showData();
+
+            } catch (SQLException _) {}
+
+
+
+        }
     }
+
+
 
     @FXML
     void delete(ActionEvent event) {
