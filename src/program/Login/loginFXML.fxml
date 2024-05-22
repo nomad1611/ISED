@@ -25,7 +25,7 @@
             <Font size="26.0" />
          </font>
       </Text>
-      <Button fx:id="loginButton" layoutX="196.0" layoutY="207.0" mnemonicParsing="false" onAction="#login" text="Login" />
+      <Button fx:id="loginButton" layoutX="196.0" layoutY="207.0" mnemonicParsing="false" onAction="#login" onKeyPressed="#login" text="Login" />
       <PasswordField fx:id="txtPassword" layoutX="171.0" layoutY="148.0" promptText="password" />
    </children>
 </AnchorPane>
