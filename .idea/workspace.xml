@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="add user economist; first final version of the project;">
+    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="add feature to login with key &quot;Enter&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/Login/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Login/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/Login/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Login/login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/Login/loginFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Login/loginFXML.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/program/Users/Economist/Controllers/OutControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Economist/Controllers/OutControl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +201,7 @@
       <workItem from="1716296082519" duration="6740000" />
       <workItem from="1716313899714" duration="800000" />
       <workItem from="1716322256190" duration="3923000" />
-      <workItem from="1716365498753" duration="2370000" />
+      <workItem from="1716365498753" duration="5435000" />
     </task>
     <task id="LOCAL-00001" summary="first type of program; made login window for users">
       <option name="closed" value="true" />
@@ -284,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716327290900</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add feature to login with key &quot;Enter&quot;">
+      <option name="closed" value="true" />
+      <created>1716368906968</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1716368906968</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +319,8 @@
     <MESSAGE value="add data from table orgFolder for ceo&#10;;" />
     <MESSAGE value="show data from table incom for ceo&#10;;" />
     <MESSAGE value="add user economist; first final version of the project;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add user economist; first final version of the project;" />
+    <MESSAGE value="add feature to login with key &quot;Enter&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add feature to login with key &quot;Enter&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

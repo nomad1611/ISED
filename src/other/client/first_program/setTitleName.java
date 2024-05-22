@@ -1,4 +1,4 @@
-package first_program;
+package other.client.first_program;
 
 import javax.swing.*;
 

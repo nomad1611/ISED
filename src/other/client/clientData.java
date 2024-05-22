@@ -1,4 +1,4 @@
-package client;
+package other.client;
 
 public class clientData {
     private final Integer id;
