@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="add feature to login with key &quot;Enter&quot;">
+    <list default="true" id="acdbb3bd-9498-44b5-8f91-35db16b58302" name="Changes" comment="second final version of app">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/11aece1c-7fab-4c2c-b0a8-d2a0559db1e1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/11aece1c-7fab-4c2c-b0a8-d2a0559db1e1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/248012e2-135a-45ff-9ee2-77fff3b809ef.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/248012e2-135a-45ff-9ee2-77fff3b809ef.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/32347748-0ee9-4167-935b-e8a9240bf1d7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/32347748-0ee9-4167-935b-e8a9240bf1d7.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Ceo/Controllers/OutControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program/Users/Economist/Controllers/OutControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/program/Users/Economist/Controllers/OutControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/other/client/first_program/inputTextfield.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/other/client/first_program/inputTextfield.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,21 +88,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.program.Login.login">
-    <configuration name="PopupExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PopupExample" />
+    <configuration name="inputTextfield" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.client.first_program.inputTextfield" />
       <module name="ISED" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\1\javafx\openjfx-21.0.2_windows-x64_bin-sdk\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="program.loginUser.Login.login" />
-      <module name="ISED" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\1\javafx\openjfx-21.0.2_windows-x64_bin-sdk\javafx-sdk-21.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="program.loginUser.Users.Ceo.FXML.*" />
+          <option name="PATTERN" value="other.client.first_program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="setTitleName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.client.first_program.setTitleName" />
+      <module name="ISED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="other.client.first_program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testEconomist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="program.Users.Economist.testProg.testEconomist" />
       <module name="ISED" />
@@ -150,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.testEconomist" />
+      <item itemvalue="Application.inputTextfield" />
+      <item itemvalue="Application.setTitleName" />
       <item itemvalue="Application.program.Login.login" />
-      <item itemvalue="Application.PopupExample" />
       <item itemvalue="Application.program.Users.Ceo.testProg.testCeo" />
-      <item itemvalue="Application.login" />
+      <item itemvalue="Application.testEconomist" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.program.Login.login" />
+        <item itemvalue="Application.setTitleName" />
+        <item itemvalue="Application.inputTextfield" />
         <item itemvalue="Application.testEconomist" />
         <item itemvalue="Application.program.Users.Ceo.testProg.testCeo" />
-        <item itemvalue="Application.PopupExample" />
-        <item itemvalue="Application.login" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +208,12 @@
       <workItem from="1716296082519" duration="6740000" />
       <workItem from="1716313899714" duration="800000" />
       <workItem from="1716322256190" duration="3923000" />
-      <workItem from="1716365498753" duration="5435000" />
+      <workItem from="1716365498753" duration="5959000" />
+      <workItem from="1716373594257" duration="6000" />
+      <workItem from="1716451061748" duration="909000" />
+      <workItem from="1716527403646" duration="37000" />
+      <workItem from="1716889994272" duration="554000" />
+      <workItem from="1716994748076" duration="1920000" />
     </task>
     <task id="LOCAL-00001" summary="first type of program; made login window for users">
       <option name="closed" value="true" />
@@ -291,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716368906968</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="second final version of app">
+      <option name="closed" value="true" />
+      <created>1716371494393</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716371494393</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +340,8 @@
     <MESSAGE value="show data from table incom for ceo&#10;;" />
     <MESSAGE value="add user economist; first final version of the project;" />
     <MESSAGE value="add feature to login with key &quot;Enter&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add feature to login with key &quot;Enter&quot;" />
+    <MESSAGE value="second final version of app" />
+    <option name="LAST_COMMIT_MESSAGE" value="second final version of app" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
